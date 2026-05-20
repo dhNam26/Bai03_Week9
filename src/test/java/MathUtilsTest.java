@@ -17,7 +17,7 @@ public class MathUtilsTest {
 
     @Test
     void testMultipy() {
-        assertEquals(12, mathUtils.multiply(4, 3));
+        assertEquals(100, mathUtils.multiply(4, 3));
     }
 
     @Test
