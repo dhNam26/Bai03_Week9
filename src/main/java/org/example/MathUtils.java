@@ -7,7 +7,7 @@ public class MathUtils {
     private static final Logger logger =  LoggerFactory.getLogger(MathUtils.class);
     public int add(int a, int b) {
         int result = a + b;
-        logger.info("Add: {} + {} = {}", a, b, result);
+        logger.info("Add: {} + {} = {}", a, b + a, result);
         return result;
     }
     public int sub(int a, int b) {
